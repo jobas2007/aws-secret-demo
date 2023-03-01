@@ -6,3 +6,8 @@ spring:
 
 test:
   userinfo: ${foo.username}
+
+aws:
+  secretsmanager:
+    fail-fast: false
+    endpoint: https://localhost.localstack.cloud:4566
